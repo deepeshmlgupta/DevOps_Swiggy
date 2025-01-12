@@ -50,7 +50,9 @@ aws configure
 ```bash
 AWS Access Key ID = <access key>
 AWS Secret Access Key = <secret access key> 
-```   
+```
+![image](https://github.com/user-attachments/assets/0d08f4b7-c6fa-4641-a420-7adbe9f40b6e)
+
 
 Now your AWS is connected with the VM but terrafrom will also connect the the AWS to run these command
 
@@ -70,6 +72,8 @@ This command will initlize the terrafrom script in the Virtal Machine
 ```bash
 terraform init
 ```
+![image](https://github.com/user-attachments/assets/c7efbb12-d0f4-48ea-98b4-5e479aeab443)
+
 This command will show you what all action your terraform script will perform on to your AWS Account 
 ```bash
 terraform plan 
@@ -78,13 +82,15 @@ After Checking the plan of terraform if all thing gos well then apply it
 ```bash
 terraform apply -auto-approve
 ```
+![image](https://github.com/user-attachments/assets/5bbf6288-e0ff-4917-ab0f-19b7a6929c26)
+
 
 ## Docker
 - <b>Let's first execute this project through Docker:</b>
   - Provide permission to docker socket so that docker build and push command do not fail
-  ```bash
-  chmod 777 /var/run/docker.sock
-  ```
+    ```bash
+    chmod 777 /var/run/docker.sock
+    ```
   - Now, build the Dockerfile
     ```bash
     docker build -t Swiggy:latest . --no-cache
@@ -97,6 +103,10 @@ terraform apply -auto-approve
 > [!Note]
 > Before running the jenkins pipeline you should make sure that you stop the current Docker Container
 
+   - After the image is build successfully now run the docker container
+    ```bash
+    docker stop <container_ID>
+    ```
 
 ## Jenkins Setup
 - <b>Go to Jenkins Master and click on <mark> Manage Jenkins --> Plugins --> Available plugins</mark> install the below plugins:</b>
