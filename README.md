@@ -1,6 +1,12 @@
-# 🚀 **DevOps Real-time Project: Swiggy Clone App Deployment**
+# 🚀 **DevOps Real-time Project: Swiggy Clone**
 
-In this **real-time DevOps project**, I demonstrate how to **deploy a Swiggy Clone App** using various modern tools and services in the DevOps ecosystem.
+This project is a Swiggy clone 🍔 built with DevOps practices for scalability and security. It leverages AWS for cloud hosting and Terraform for managing infrastructure. Jenkins automates the CI/CD pipeline, while SonarQube ensures code quality. Security is prioritized using tools like OWASP and Trivy, and Docker is used to containerize the application for easier deployment and scaling.
+
+#
+## Project Overview
+![Swiggy Project](https://github.com/user-attachments/assets/d078b6f3-a290-4584-9f2f-692ffe262ade)
+#
+
 ## 🛠️ Tools & Services Used:
 
 1. **Terraform** ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
