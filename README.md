@@ -103,7 +103,7 @@ terraform apply -auto-approve
     ```
   - After the image is build successfully now run the docker container
     ```bash
-    docker run -d --name swiggy -p 3000:3000 kastrov/swiggy:latest
+    docker run -d --name swiggy -p 3000:3000 deepeshmlgupta/swiggy:latest
     ```
 
 > [!Note]
