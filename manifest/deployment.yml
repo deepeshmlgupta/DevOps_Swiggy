@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: docker
-        image: public.ecr.aws/l6f8v4v7/deepesh/notesapp:latest
+        image: 058264346116.dkr.ecr.ap-south-1.amazonaws.com/deepesh/swiggy:latest
         ports:
         - containerPort: 3000
